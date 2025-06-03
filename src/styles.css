@@ -1,0 +1,145 @@
+/* Resetting */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+
+/* Main */
+
+body {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: rgb(35, 35, 35);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgb(244, 244, 244);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  box-shadow: 0 0px 4px rgb(63, 63, 63);
+  background-color: white;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  gap: 36px;
+}
+
+nav button {
+  border: none;
+  background-color: transparent;
+  font-size: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+nav button:hover {
+  filter: opacity(0.5);
+}
+
+.active {
+  border-bottom: 4px solid rgb(0, 119, 255);
+  color: rgb(0, 119, 255);
+}
+
+#content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  max-width: 80%;
+  border-radius: 24px;
+  box-shadow: 0 0 4px rgb(161, 161, 161);
+  padding: 36px;
+}
+
+.card h1 {
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.card > p {
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin: 12px 0 28px;
+  color: rgb(106, 106, 106);
+}
+
+.info {
+  display: flex;
+  gap: 72px;
+}
+
+.info > div {
+  flex: 1;
+}
+
+.info h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.info p {
+  font-weight: 400;
+  font-size: 1.15rem;
+  margin: 12px 0;
+  color: rgb(106, 106, 106);
+}
+
+.card > div:last-child {
+  font-weight: 400;
+  font-size: 1.15rem;
+  margin: 18px 0 0;
+  color: rgb(106, 106, 106);
+}
+
+
+footer {
+  text-align: center;
+  padding: 1.2rem;
+}
