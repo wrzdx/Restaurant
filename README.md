@@ -1,6 +1,6 @@
 # Restaurant Page
 
-A simple restaurant homepage built with JavaScript modules and Webpack as part of [The Odin Project](https://www.theodinproject.com/) curriculum.
+A dynamic restaurant homepage showcasing tabbed navigation and modular JavaScript architecture bundled with Webpack.
 
 ## Preview
 
